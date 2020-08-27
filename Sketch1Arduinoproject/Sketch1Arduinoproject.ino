@@ -3,14 +3,19 @@
  Created:	8/27/2020 12:56:06 PM
  Author:	nabmsi
 */
+#include "ServoPlayRecord.h"
+
 
 // the setup function runs once when you press reset or power the board
-#include "cpp1.h"
+#include "ServoPlayRecord.h"
 void setup() {
-	Serial.begin(2000000);
+	ServoPR_Setup();
 	}
 
-	// the loop function runs over and over again until power down or reset
+
 void loop() {
-	helpme();
+	Do_loop();
 	}
+ 
+
+ 
