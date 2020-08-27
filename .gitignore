@@ -1,32 +1,115 @@
+Sketch1Arduinoproject/*.rsuser
+Sketch1Arduinoproject/*.suo
+Sketch1Arduinoproject/*.user
+Sketch1Arduinoproject/*.userosscache
+Sketch1Arduinoproject/*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+Sketch1Arduinoproject/*.userprefs
+
+
+Sketch1Arduinoproject/*.rsuser
+Sketch1Arduinoproject/*.suo
+Sketch1Arduinoproject/*.user
+Sketch1Arduinoproject/*.userosscache
+Sketch1Arduinoproject/*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+Sketch1Arduinoproject/*.userprefs
+
+# Build results
+Sketch1Arduinoproject/[Dd]ebug/
+Sketch1Arduinoproject/[Dd]ebugPublic/
+Sketch1Arduinoproject/[Rr]elease/
+Sketch1Arduinoproject/[Rr]eleases/
+Sketch1Arduinoproject/x64/
+Sketch1Arduinoproject/x86/
+Sketch1Arduinoproject/[Ww][Ii][Nn]32/
+Sketch1Arduinoproject/[Aa][Rr][Mm]/
+Sketch1Arduinoproject/[Aa][Rr][Mm]64/
+Sketch1Arduinoproject/bld/
+Sketch1Arduinoproject/[Bb]in/
+Sketch1Arduinoproject/[Oo]bj/
+Sketch1Arduinoproject/[Ll]og/
+Sketch1Arduinoproject/[Ll]ogs/
+
+# Visual Studio 2015/2017 cache/options directory
+Sketch1Arduinoproject/.vs/
+
+# Files built by Visual Studio
+Sketch1Arduinoproject/*_i.c
+Sketch1Arduinoproject/*_p.c
+Sketch1Arduinoproject/*_h.h
+Sketch1Arduinoproject/*.ilk
+Sketch1Arduinoproject/*.meta
+Sketch1Arduinoproject/*.obj
+Sketch1Arduinoproject/*.iobj
+Sketch1Arduinoproject/*.pch
+Sketch1Arduinoproject/*.pdb
+Sketch1Arduinoproject/*.ipdb
+Sketch1Arduinoproject/*.pgc
+Sketch1Arduinoproject/*.pgd
+Sketch1Arduinoproject/*.rsp
+Sketch1Arduinoproject/*.sbr
+Sketch1Arduinoproject/*.tlb
+Sketch1Arduinoproject/*.tli
+Sketch1Arduinoproject/*.tlh
+Sketch1Arduinoproject/*.tmp
+Sketch1Arduinoproject/*.tmp_proj
+Sketch1Arduinoproject/*_wpftmp.csproj
+Sketch1Arduinoproject/*.log
+Sketch1Arduinoproject/*.vspscc
+Sketch1Arduinoproject/*.vssscc
+Sketch1Arduinoproject/.builds
+Sketch1Arduinoproject/*.pidb
+Sketch1Arduinoproject/*.svclog
+Sketch1Arduinoproject/*.scc
+
+# Visual C++ cache files
+Sketch1Arduinoproject/ipch/
+Sketch1Arduinoproject/*.aps
+Sketch1Arduinoproject/*.ncb
+Sketch1Arduinoproject/*.opendb
+Sketch1Arduinoproject/*.opensdf
+Sketch1Arduinoproject/*.sdf
+Sketch1Arduinoproject/*.cachefile
+Sketch1Arduinoproject/*.VC.db
+Sketch1Arduinoproject/*.VC.VC.opendb
+
+
+ Visual Studio code coverage results
+Sketch1Arduinoproject/*.coverage
+Sketch1Arduinoproject/*.coveragexml
+
 # Prerequisites
-*.d
+Sketch1Arduinoproject/*.d
 
 # Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+Sketch1Arduinoproject/.slo
+Sketch1Arduinoproject/*.lo
+Sketch1Arduinoproject/*.o
+Sketch1Arduinoproject/*.obj
 
 # Precompiled Headers
-*.gch
-*.pch
+Sketch1Arduinoproject/*.gch
+Sketch1Arduinoproject/*.pch
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+Sketch1Arduinoproject/*.so
+Sketch1Arduinoproject/*.dylib
+Sketch1Arduinoproject/*.dll
 
 # Fortran module files
-*.mod
-*.smod
+Sketch1Arduinoproject/*.mod
+Sketch1Arduinoproject/*.smod
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+Sketch1Arduinoproject/*.lai
+Sketch1Arduinoproject/*.la
+Sketch1Arduinoproject/*.a
+Sketch1Arduinoproject/*.lib
 
 # Executables
-*.exe
-*.out
-*.app
+Sketch1Arduinoproject/*.exe
+Sketch1Arduinoproject/*.out
+Sketch1Arduinoproject/*.app
