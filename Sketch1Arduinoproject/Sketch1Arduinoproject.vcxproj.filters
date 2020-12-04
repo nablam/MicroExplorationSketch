@@ -19,6 +19,7 @@
     <None Include="src\arduino folders read me.txt">
       <Filter>Misc Files</Filter>
     </None>
+    <None Include="ServoIno.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.Sketch1Arduinoproject.vsarduino.h">
@@ -27,9 +28,15 @@
     <ClInclude Include="cpp1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ServoPlayRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cpp1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServoPlayRecord.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

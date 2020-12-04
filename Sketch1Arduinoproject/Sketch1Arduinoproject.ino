@@ -3,10 +3,25 @@
  Created:	8/27/2020 12:56:06 PM
  Author:	nabmsi
 */
-#include "ServoPlayRecord.h"
+//#define Blink
 
 
-// the setup function runs once when you press reset or power the board
+
+#ifdef Blink
+//Blink
+#include <Servo.h>
+void setup() { 
+	pinMode(LED_BUILTIN, OUTPUT); 
+	}
+ 
+void loop() { 
+	digitalWrite(LED_BUILTIN, HIGH);
+	delay(1000);
+	digitalWrite(LED_BUILTIN, LOW);
+	delay(1000);
+	}
+
+#else
 #include "ServoPlayRecord.h"
 void setup() {
 	ServoPR_Setup();
@@ -16,6 +31,6 @@ void setup() {
 void loop() {
 	Do_loop();
 	}
+#endif // 
  
 
- 

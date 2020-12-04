@@ -1,7 +1,7 @@
 
-int Searial_intValueRead = -1;
+int Searial_intValueRead = 1500;
 
-void ReadSerialInputs(int argMin, int argMax) {
+int ReadSerialInputs(int argMin, int argMax) {
     while (Serial.available() == 0) {} //do nada
 
     int _tempInteger = Serial.parseInt();
@@ -20,6 +20,5 @@ void ReadSerialInputs(int argMin, int argMax) {
     else {
         Serial.println("!!!!!outside of min max!!!!!");
         }
-
-
+return _tempInteger   ;
     }
